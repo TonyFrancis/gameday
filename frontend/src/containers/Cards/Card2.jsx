@@ -8,7 +8,7 @@ const Cards2 =  () => {
   return (
     <Card style={{padding: '1em'}}>
       <Grid container gutter={12}>
-        <Grid item sm={6}>
+        <Grid item sm={6} xs={9}>
             <CardContent>
             <Typography type="headline" component="h2">
               Vestibulum rutrum quam vitae fringilla
@@ -31,9 +31,9 @@ const Cards2 =  () => {
             </Button>
           </CardActions>
         </Grid>
-        <Grid item sm={6}>
+        <Grid item sm={6} xs={9}>
           <CardMedia>
-            <img src='http://via.placeholder.com/250x250' alt="representation" />
+            <img src='http://via.placeholder.com/450x250' alt="representation" />
           </CardMedia>
         </Grid>
       </Grid>

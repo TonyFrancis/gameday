@@ -16,7 +16,7 @@ const Heading = () => {
         </div>
         <div className="w3-display-left">
           <Grid container gutter={24}>
-            <Grid item xs={12} sm={6}>
+            <Grid item xs={12} sm={12}>
               <h4 className="w3-xxlarge w3-animate-top" style={{ paddingLeft: 20}}>
                 Mauris non tempor quam, et lacinia sap.
               </h4>

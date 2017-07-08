@@ -10,3 +10,10 @@ body {
     background-position: 'center';
     background-size: 'cover';
 }
+img {
+    display: block;
+    margin: 0 auto;
+    max-width: '100% !important';
+    background-position: 'center';
+    background-size: 'cover';
+}
