@@ -7,7 +7,7 @@ import Grid from 'material-ui/Grid';
 const Card4 = () => {
   return (
     <Grid container gutter={12}>
-      <Grid item sm={12} xs={9}>
+      <Grid item sm={12} xs={12}>
         <Card style={{padding: '1em'}}>
           <Typography component="p">
             Curabitur lobortis id lorem id bibendum.

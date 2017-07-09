@@ -24,7 +24,7 @@ const CardList = () => {
     },
   ];
   const content = cardContent.map( (content, index) => (
-    <Grid key={index} item sm={4} xs={8}>
+    <Grid key={index} item sm={4} xs={12}>
       <Cards
         heading={content.heading}
         image={content.image}
@@ -33,7 +33,7 @@ const CardList = () => {
     </Grid>
 ));
   return (
-    <Grid container gutter={24} style={{ marginTop: 30,}}>
+    <Grid container gutter={12} style={{ marginTop: 30,}}>
       {content}
     </Grid>
   )

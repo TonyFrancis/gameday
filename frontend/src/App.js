@@ -8,7 +8,7 @@ import Cards, { Card2,Card3, Card4, Card5, Card6, Card7, Card8} from './containe
 class App extends Component {
   render() {
     return (
-      <div style={{ width: '1400px'}}>
+      <div>
         <Heading />
         <Topic />
         <Cards />

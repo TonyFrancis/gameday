@@ -5,15 +5,25 @@ body {
 }
 
 .bgimg {
-    background-image: url('http://via.placeholder.com/160x160');
+    background-image: url('nature.jpg');
     max-height: 100%;
-    background-position: 'center';
-    background-size: 'cover';
+    background-position: 'center !important';
+    background-size: 'cover !important';
+    background-repeat:no-repeat;
 }
 img {
-    display: block;
-    margin: 0 auto;
-    max-width: '100% !important';
-    background-position: 'center';
-    background-size: 'cover';
+  display: block;
+  margin: 0 auto;
+  max-width: '100% !important';
+  background-position: 'center';
+  background-size: 'cover';
+}
+.top {
+  top: '-5em !important';
+  left: '50em !important ';
+  float: 'right !important';
+  position: 'relative !important';
+}
+@media screen and (min-width: 800px) {
+
 }

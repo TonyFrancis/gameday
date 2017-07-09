@@ -9,14 +9,14 @@ const Heading = () => {
     width: 38,
   };
   return (
-    <div style={{height: '10em'}}>
-      <div className="bgimg w3-display-container w3-animate-opacity w3-text-white">
-        <div className="w3-display-topleft w3-padding-large w3-xlarge">
-          Hello World
-        </div>
-        <div className="w3-display-left">
-          <Grid container gutter={24}>
-            <Grid item xs={12} sm={12}>
+    <div>
+      <Grid container gutter={12}>
+        <Grid item xs={12} sm={12}>
+          <div className="bgimg w3-display-container w3-animate-opacity w3-text-white" style={{height: '30em'}}>
+            <div className="w3-display-topleft w3-padding-large w3-xlarge">
+              Hello World
+            </div>
+            <div className="w3-display-left">
               <h4 className="w3-xxlarge w3-animate-top" style={{ paddingLeft: 20}}>
                 Mauris non tempor quam, et lacinia sap.
               </h4>
@@ -29,10 +29,10 @@ const Heading = () => {
               </IconButton>
               Play video
               </h4>
-            </Grid>
-          </Grid>
-        </div>
-      </div>
+            </div>
+          </div>
+        </Grid>
+      </Grid>
     </div>
   );
 }

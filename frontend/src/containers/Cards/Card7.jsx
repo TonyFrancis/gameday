@@ -8,7 +8,7 @@ const Card7 = () => {
   return (
     <div className="w3-center">
       <Grid container gutter={12}>
-        <Grid item sm={12} xs={9}>
+        <Grid item sm={12} xs={12}>
           <Card>
             <CardContent>
               <Typography type="headline" component="h2">
