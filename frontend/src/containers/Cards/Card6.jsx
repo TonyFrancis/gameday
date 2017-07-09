@@ -9,7 +9,7 @@ const Card6 = () => {
   let smallCard = []
   for (let i=0;i <8; i++) {
     smallCard.push(
-      <Grid item sm={9} xs={6} key={i}>
+      <Grid item sm={3} xs={9} key={i}>
         <Card style={{ padding: '1em' }}>
           <CardMedia>
             <img src="http://via.placeholder.com/50x50" role="tile" />
@@ -22,7 +22,7 @@ const Card6 = () => {
     <div className="w3-center">
       <Card style={{ padding: '1em'}}>
         <Grid container gutter={12} style={{ padding: '1em'}}>
-          <Grid item sm={12}>
+          <Grid item sm={12} xs={6}>
               <CardContent>
                 <Typography component="p">
                   Mauris non tempor quam, et lacinia sapien.

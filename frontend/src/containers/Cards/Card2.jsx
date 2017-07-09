@@ -33,7 +33,7 @@ const Cards2 =  () => {
         </Grid>
         <Grid item sm={6} xs={9}>
           <CardMedia>
-            <img src='http://via.placeholder.com/450x250' alt="representation" />
+            <img src='http://via.placeholder.com/350x250' alt="representation" />
           </CardMedia>
         </Grid>
       </Grid>

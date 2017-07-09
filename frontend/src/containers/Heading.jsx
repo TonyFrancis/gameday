@@ -9,7 +9,7 @@ const Heading = () => {
     width: 38,
   };
   return (
-    <div style={{width: '100%'}}>
+    <div style={{height: '10em'}}>
       <div className="bgimg w3-display-container w3-animate-opacity w3-text-white">
         <div className="w3-display-topleft w3-padding-large w3-xlarge">
           Hello World

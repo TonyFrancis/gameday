@@ -6,23 +6,21 @@ import Grid from 'material-ui/Grid';
 
 const Card4 = () => {
   return (
-    <Card style={{padding: '1em'}}>
-      <Grid container gutter={12}>
-        <Grid item xs={6}>
+    <Grid container gutter={12}>
+      <Grid item sm={12} xs={9}>
+        <Card style={{padding: '1em'}}>
           <Typography component="p">
             Curabitur lobortis id lorem id bibendum.
             Ut id consectetur magna. Quisque volutpat
             augue enim, pulvinar lobortis nibh lacinia
             at. Vestibulu.
           </Typography>
-        </Grid>
-        <Grid item xs={6}>
           <Button raised style={{ float: 'right'}}>
             Click Me
           </Button>
-        </Grid>
+        </Card>
       </Grid>
-    </Card>
+    </Grid>
   );
 }
 

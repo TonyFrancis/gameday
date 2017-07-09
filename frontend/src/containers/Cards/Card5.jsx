@@ -7,14 +7,14 @@ import Grid from 'material-ui/Grid';
 const Card5 = () => {
 return (
   <Grid container gutter={12}>
-    <Grid item sm={4}>
+    <Grid item sm={4} xs={9}>
       <Card style={{ padding: '1em'}}>
         <CardMedia>
           <img src="http://via.placeholder.com/250x250" role="placeholder" />
         </CardMedia>
       </Card>
     </Grid>
-    <Grid item sm={4}>
+    <Grid item sm={4} xs={9}>
       <Card style={{ padding: '1em'}}>
         <CardMedia>
           <img src="http://via.placeholder.com/160x160" role="placeholder" />
@@ -29,21 +29,21 @@ return (
         </CardContent>
       </Card>
     </Grid>
-    <Grid item sm={4}>
+    <Grid item sm={4} xs={9}>
       <Card style={{ padding: '1em'}}>
         <CardMedia>
           <img src="http://via.placeholder.com/250x250" role="placeholder" />
         </CardMedia>
       </Card>
     </Grid>
-    <Grid item sm={4}>
+    <Grid item sm={4} xs={9}>
       <Card style={{ padding: '1em'}}>
         <CardMedia>
           <img src="http://via.placeholder.com/150x250" role="placeholder" />
         </CardMedia>
       </Card>
     </Grid>
-    <Grid item sm={4}>
+    <Grid item sm={4} xs={9}>
       <Card style={{ padding: '1em'}}>
         <CardMedia>
           <img src="http://via.placeholder.com/350x250" role="placeholder" />
